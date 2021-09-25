@@ -10,7 +10,7 @@ function checkAnswer(question,answer){
     console.log("You are answered: "+ useranswer +" and its Right !")
     score=score+1;
   }else{
-    console.log("You are answered: "+ useranswer +                       " and its Wrong !");
+    console.log("You are answered: "+ useranswer +" and its Wrong !");
   }
   console.log("--------------")
   
