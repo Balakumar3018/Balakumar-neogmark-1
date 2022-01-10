@@ -4,7 +4,7 @@ const username=readlineSync.question("What is your name ? ")
 console.log("Welcome "+username+" To 'Do you know Bala Quiz !'")
 //function writing to check question and answer
 let score=0;
-function checkAnswer(question,answer){
+  const checkAnswer=(question,answer)=>{
   const useranswer=readlineSync.question(question);
   if(useranswer === answer){
     console.log("You are answered: "+ useranswer +" and its Right !")
